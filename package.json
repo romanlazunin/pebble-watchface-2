@@ -1,12 +1,12 @@
 {
-  "name": "watchface-2",
+  "name": "red-black-watchface",
   "author": "MakeAwesomeHappen",
   "version": "1.0.0",
   "keywords": ["pebble-app"],
   "private": true,
   "dependencies": {},
   "pebble": {
-    "displayName": "watchface-2",
+    "displayName": "Red Black",
     "uuid": "3964d221-31f0-4583-aa36-ffd5bf2cfd9d",
     "sdkVersion": "3",
     "enableMultiJS": true,

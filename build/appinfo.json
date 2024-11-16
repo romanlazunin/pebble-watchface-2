@@ -5,8 +5,8 @@
         "chalk", 
         "diorite"
     ], 
-    "displayName": "watchface-2", 
-    "name": "watchface-2", 
+    "displayName": "Red Black", 
+    "name": "red-black-watchface", 
     "messageKeys": {
         "dummy": 10000
     }, 
@@ -18,8 +18,8 @@
     "appKeys": {
         "dummy": 10000
     }, 
-    "longName": "watchface-2", 
-    "shortName": "watchface-2", 
+    "longName": "Red Black", 
+    "shortName": "Red Black", 
     "watchapp": {
         "watchface": true
     }, 
