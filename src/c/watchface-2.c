@@ -54,6 +54,9 @@ static void prv_window_load(Window *window) {
   backgroundColor = GColorBlack;
   foregroundColor = GColorWhite;
 
+  // backgroundColor = GColorWhite;
+  // foregroundColor = GColorBlack;
+
 
   window_set_background_color(s_window, backgroundColor);
 
@@ -76,12 +79,12 @@ static void prv_window_load(Window *window) {
   text_layer_set_text_color(footer_layer, foregroundColor);
   text_layer_set_font(footer_layer, fonts_get_system_font(FONT_KEY_GOTHIC_14));
   text_layer_set_text_alignment(footer_layer, GTextAlignmentCenter);
-  text_layer_set_text(footer_layer, "v.1.0.4\n2024 (c) Roman Lazunin");
+  text_layer_set_text(footer_layer, "v.1.0.5\n2024 (c) Roman Lazunin");
 
-  date_layer = text_layer_create(GRect(0, 0, bounds.size.w, bounds.size.h / 4));
+  date_layer = text_layer_create(GRect(0, 0, bounds.size.w, bounds.size.h / 3));
   text_layer_set_background_color(date_layer, GColorClear);
   text_layer_set_text_color(date_layer, foregroundColor);
-  text_layer_set_font(date_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18));
+  text_layer_set_font(date_layer, fonts_get_system_font(FONT_KEY_GOTHIC_24));
   text_layer_set_text_alignment(date_layer, GTextAlignmentCenter);
   
   layer_add_child(window_layer, text_layer_get_layer(s_time_layer));
