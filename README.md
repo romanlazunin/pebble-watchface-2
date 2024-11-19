@@ -1,4 +1,8 @@
-# pebble-watchface-2
-Experimental Pebble Time Watchface
+# Experimental Pebble Time Watchfaces
+Experimental Pebble Time Watchfaces
 
-![image](img/screen_main.png)
+## Black White Watchface
+![image](bw-pebble-watchface/img/screen_main.png)
+
+## Avia Horizon Watchface
+![image](avia-pebble-watchface/img/screen_main.png)
